@@ -68,3 +68,56 @@ print(sentence.upper())
 print(sentence.lower())
 print(sentence.swapcase())
 print(sentence)
+
+text = 'ClarRusWay'
+print(text.upper())
+print(text.lower())
+print(text.swapcase())
+print(text)
+
+text = 'ClaRusWay'
+print(text.replace('W','***'))
+print(text.replace('W','***').lower())
+print(text.replace('W','***').lower().upper())
+
+print(text.count('a'))
+print(text.title())
+text ='the better the family, the better the society'
+print(text.title())
+
+
+text = 'S0d0me and G0m0re'
+print(text.replace('0','o'))
+
+isim = '             ali            '
+print(isim.strip())
+meslek=' \n codder   \t' 
+print(meslek.strip())
+print(meslek.rstrip())
+
+text = 'abcdabcd'
+print(text.strip('a'))
+print(text.strip('ab'))
+print(text.strip('ba'))
+print(text.strip('bad'))
+print(text.strip('badc'))
+
+print(None or 1)
+print(True or False)
+print(True or not False)
+
+a= ' '
+b= 'False'
+c= True
+d= ''
+print(a or b or c and not d)
+
+
+text = 'tyou can learn almost everything in pre-classz '
+print(text.strip('tz'))
+print(text.strip('tz').upper())
+print(text.rstrip('z').lstrip('t'))
+print(text.rstrip('z').lstrip('t').upper())
+
+text = 'In God wee Trust'
+print(text.replace('wee','we'))
